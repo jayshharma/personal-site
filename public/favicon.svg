@@ -1,0 +1,24 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="top" x1="32" y1="10" x2="42" y2="32" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F4F4F5"/>
+      <stop offset="1" stop-color="#D4D4D8"/>
+    </linearGradient>
+    <linearGradient id="left" x1="12" y1="22" x2="32" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A1A1AA"/>
+      <stop offset="1" stop-color="#52525B"/>
+    </linearGradient>
+    <linearGradient id="right" x1="52" y1="22" x2="36" y2="54" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#71717A"/>
+      <stop offset="1" stop-color="#27272A"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M32 10L52 22L32 34L12 22L32 10Z" fill="url(#top)"/>
+  <path d="M12 22L32 34V54L12 42V22Z" fill="url(#left)"/>
+  <path d="M52 22L32 34V54L52 42V22Z" fill="url(#right)"/>
+
+  <path d="M32 10L52 22L32 34L12 22L32 10Z" stroke="#FFFFFF" stroke-opacity="0.65"/>
+  <path d="M12 22L32 34V54L12 42V22Z" stroke="#FFFFFF" stroke-opacity="0.35"/>
+  <path d="M52 22L32 34V54L52 42V22Z" stroke="#FFFFFF" stroke-opacity="0.2"/>
+</svg>
