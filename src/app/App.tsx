@@ -129,7 +129,7 @@ export default function App() {
 
                 <p className="lg:whitespace-nowrap">
                   Outside of work, I like exploring new{" "}
-                  countries, working out, <span className="whitespace-nowrap">and tinkering with LLMs.</span>
+                  countries, working out, and tinkering <span className="block sm:inline">with LLMs.</span>
                 </p>
               </div>
 
@@ -233,6 +233,8 @@ export default function App() {
     </div>
   );
 }
+
+
 
 
 
