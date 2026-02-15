@@ -49,7 +49,7 @@ export default function App() {
 
   return (
     <div
-      className={`relative min-h-[100dvh] transition-colors duration-500 ${isDark ? "bg-[#111111] text-white" : "bg-[#f4eadb] text-[#2f2b24]"}`}
+      className={`relative min-h-[100dvh] transition-colors duration-500 ${isDark ? "bg-[#080808] text-white" : "bg-[#f4eadb] text-[#2f2b24]"}`}
     >
       <button
         type="button"
@@ -233,6 +233,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
