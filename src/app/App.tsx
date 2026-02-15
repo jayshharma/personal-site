@@ -70,7 +70,7 @@ export default function App() {
           />
         )}
       </button>
-      <div className="container mx-auto flex min-h-[100dvh] w-full flex-col justify-center px-6 pt-10 pb-4 sm:pt-12 sm:pb-6">
+      <div className="container mx-auto flex min-h-[100dvh] w-full flex-col justify-start px-6 pt-36 pb-10 sm:pt-40 sm:pb-12 lg:justify-center lg:pt-12 lg:pb-6">
         <div className="relative mx-auto flex max-w-7xl flex-col items-start justify-start gap-16 lg:flex-row lg:gap-40">
           {/* Content Section */}
           <div className="flex w-full flex-col justify-between lg:min-h-[433px] lg:max-w-xl">
@@ -233,6 +233,10 @@ export default function App() {
     </div>
   );
 }
+
+
+
+
 
 
 
