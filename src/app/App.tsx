@@ -53,7 +53,7 @@ export default function App() {
   const headingText = "Jay Sharma";
   const [typedHeading, setTypedHeading] = useState("");
   const [showCaret, setShowCaret] = useState(true);
-  const [isDark, setIsDark] = useState(true);
+  const [isDark, setIsDark] = useState(false);
   const imageSectionRef = useRef<HTMLDivElement | null>(null);
   const [iconRight, setIconRight] = useState<number | null>(null);
   useEffect(() => {
